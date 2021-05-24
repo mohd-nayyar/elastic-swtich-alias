@@ -1,7 +1,6 @@
 Hi there,\
 This project shows how you can switch alias in elasticsearch.\
 I have created two elastic alias alias1 pointing to elastic index index1 and alias2 pointing to elastic index index2.\
-i.e.\
 alias1 -> index1\
 alias2 -> index2\
 </br>
@@ -10,7 +9,7 @@ now I need to switch these alias as</br>
 alias1 -> index2\
 alias2 -> index1</br>
 
-Work-flow
+**Work-flow:**</br>
 0. Run this spring-boot application on port 8080.
 1. Run an elastic instance on local running on port 9200.
 2. Create two elastic indices named as index1 and index2.
